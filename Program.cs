@@ -46,7 +46,7 @@ namespace CSDictionaryTest
                 Console.WriteLine(sw.ElapsedMilliseconds);
 
 
-                /*var mydic = new MyDictionary1.Dictionary<int, double>();
+                var mydic = new MyDictionary1.Dictionary<int, double>();
                 sw.Reset(); sw.Start();
                 for (int i = 0; i < MAX_NUM; ++i)
                 {
@@ -62,10 +62,10 @@ namespace CSDictionaryTest
                     mydic.TryGetValue(i, out val);
                 }
                 sw.Stop();
-                Console.WriteLine(sw.ElapsedMilliseconds);*/
+                Console.WriteLine(sw.ElapsedMilliseconds);
 
 
-                /*var mydic2 = new MyDictionary2.Dictionary<int, double>();
+                var mydic2 = new MyDictionary2.Dictionary<int, double>();
                 sw.Reset(); sw.Start();
                 for (int i = 0; i < MAX_NUM; ++i)
                 {
@@ -81,10 +81,10 @@ namespace CSDictionaryTest
                     mydic2.TryGetValue(i, out val);
                 }
                 sw.Stop();
-                Console.WriteLine(sw.ElapsedMilliseconds);*/
+                Console.WriteLine(sw.ElapsedMilliseconds);
 
 
-                /*var mydic3 = new MyDictionary3.Dictionary();
+                var mydic3 = new MyDictionary3.Dictionary<int, double>();
                 sw.Reset(); sw.Start();
                 for (int i = 0; i < MAX_NUM; ++i)
                 {
@@ -100,7 +100,7 @@ namespace CSDictionaryTest
                     mydic3.TryGetValue(i, out val);
                 }
                 sw.Stop();
-                Console.WriteLine(sw.ElapsedMilliseconds);*/
+                Console.WriteLine(sw.ElapsedMilliseconds);
 
                 Console.WriteLine("");
             }
